@@ -1,0 +1,322 @@
+.contact-div{
+    background-color: rgb(249,249,249);
+    font-family: 'Poppins', sans-serif;
+        margin-top: 300px;
+        height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-div h2{
+    font-size: 30px;
+    color: #7510F7;
+    margin: auto;
+    width: fit-content;
+}
+.contact-div h2:hover{
+   border-bottom: 3px solid rgb(117,16,247);
+}
+
+.contactt{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+  .login-box{
+    width:400px;
+    padding:40px; 
+    background:rgba(0,0,0,.5);
+    box-sizing:border-box;
+    box-shadow:0 15px 25px rgba(#7510F7);
+    border-radius:10px;
+    margin: 0;
+  }
+  .login-box h2{
+    margin: 0 0 30px;
+    padding:0;
+    color:#fff;
+    text-align:center;
+  }
+  .login-box .user-box{
+    position:relative;
+  }
+  
+  .login-box .user-box input{
+   width:100%;
+   padding:10px 0;
+   font-size:16px;
+   color:#fff;
+   margin-bottom:30px;
+   border:none;
+   border-bottom:1px solid #fff;
+   outline:none;
+   background:transparent;
+  }
+  
+  .login-box .user-box label{
+  position:absolute;
+  top:0;
+   left:0;
+  padding:10px 0;
+   font-size:16px;
+   color:#fff;
+  pointer-events:none;
+   transition:.5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label{
+  top:-20px;
+  left:0;
+  color:#fff;
+  font-size:12px;
+  }
+  
+  .login-box form a{
+  position:relative;
+   display:inline-block;
+  padding:10px 20px;
+   color:#fff;
+   font-size:16px;
+  text-decoration:none;
+   text-transform:uppercase;
+  overflow:hidden;
+  transition: .5s;
+  margin-top:40px;
+   letter-spacing:4px;
+  }
+  
+  .login-box a:hover{
+    background:#7510F7;
+    color:#fff;
+   border-radius:5px;
+    box-shadow:0 0 5px #7510F7,
+               0 0 25px #7510F7,
+               0 0 50px #7510F7,
+               0 0 100px #7510F7;
+  }
+  
+  .login-box a span{
+   position:absolute;
+   display:block;
+  }
+  .login-box a span:nth-child(1){
+   top:0;
+    left:-100%;
+   width:100%;
+   height:2px;
+    background:linear-gradient(90deg ,transparent ,#7510F7);
+    animation:anim1 1s linear infinite;
+  }
+  
+  @keyfranes anim1{
+    0%{
+      left:-100%;
+   }
+    50%,100%{
+      left:100%;
+   }
+  }
+  
+  .login-box a span:nth-child(2){
+    top:-100%;
+    right:0;
+   width:2px;
+    height:100%;
+    background:linear-gradient(180deg,transparent,#7510F7);
+    animation:btn-anim2 1s linear infinite;
+    animation-delay:.25s;
+  }
+  
+  @keyfranes btn-anim2{
+    0%{
+      top:-100%;
+    }
+    50%,100%{
+      top:100%;
+    }
+  }
+  
+  .login-box a span:nth-child(3){
+  bottom:0;
+   right:-100%;
+  width:100%;
+  height:2px;
+   background:linear-gradient(270deg,transparent,#7510F7);
+  animation: btn-anim3 1s linear infinite;
+   animation-delay:.5s;
+  }
+  
+  @keyframes btn-anim3{
+    0%{
+     right:-100%;
+    }
+    50%,100%{
+     right:100%;
+    }
+  }
+  
+  .login-box a span:nth-child(4){
+  bottom:-100%;
+   left:0;
+  width:2px;
+  height:100%;
+   background:linear-gradient(360deg,transparent,#7510F7);
+   animation:btn-anim4 1s linear infinite;
+   animation-delay:.75s;
+  }
+  
+  @keyfranes btn-anim4{
+    0%{
+     bottom: -100%;
+    }
+    50%,100%{
+     bottom:100%;
+  }
+  }
+
+
+
+
+  /* text-contact */
+  .contact {
+    display: flex;
+    align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+    width: 40%;
+    margin: 0;
+    height: fit-content;
+    padding: 30px 0px;
+  }
+  
+  .contact-card {
+    width: 85%;
+    margin: 0;
+    height: fit-content;
+    padding: 10px 0px;
+    display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+  }
+  
+  .contact-card h1 {
+    font-size: 26px;
+    color: black;
+  }
+  
+  .contact-card span {
+    width: fit-content;
+    padding: 5px 0px 5px 5px;
+    background-color: rgb(117,16,247);
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 5px 20px;
+            margin: 30px 0px;
+  }
+  
+  .contact-card span:hover {
+            transform: scale(1.3);
+  }
+  
+  .contact-card p {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+      .contact-div{
+          margin-top: 700px;
+      } 
+    .contactt{
+       display: flex;
+       flex-direction: column;
+       height: auto;
+    }
+    .contact{
+        width: 100%;
+        margin: 10px 0px;
+        height: fit-content;
+    }
+    .login-box{
+        width: 70%;
+        margin: auto;
+    }
+    .contact-div{
+          margin-top: 1400px;
+          height: 550px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  #contact{
+    /* margin: 10px 0px; */
+    margin-bottom: 100px;
+    height: fit-content;
+  }
+  .contact-div{
+    margin-top: 1400px;  
+    /* display: none; */
+    width: 100vw;
+    margin-bottom: 50px;
+} 
+/* .emailme{
+  display: none;
+} */
+/* .card1{
+  display: none;
+} */
+.contact-div h2{
+margin-top: 20px;
+}
+.contact-card span{
+  width: 200px;
+  font-size: 15px;
+  text-align: center;
+}
+.emailme span{
+  font-size: 12px;
+  width: fit-content;
+  padding: 5px 20px;
+}
+.contact-card h1 {
+  font-size: 18px;
+  margin: 0;
+}
+.contact{
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.login-box{
+  width: 100%;
+}
+}
+

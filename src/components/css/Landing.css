@@ -1,0 +1,252 @@
+.landing{
+    width:75%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:  auto;
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;    /* background-color: #E54B4B; */
+}
+
+.landing .text{
+    margin-right: 100px;
+    text-align: left;
+    /* display: flex; */
+}
+.landing .text h1{
+      margin: 0;
+      padding: 0;
+      font-size: 65px;
+    }
+.landing .text p{
+        margin: 0;
+        padding: 0;
+        font-size: 28px;
+        font-weight: 800;
+}
+.media-logo>a i{
+    font-size: 40px;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: black;
+}
+
+
+/* Prakash Dsouza */
+
+.wrapper {
+    height: 70px;
+    width: 430px;
+    /*This part is important for centering*/
+    /* display: grid;
+    place-items: center; */
+    font-size: 32px;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .myimg{
+    border-radius: 250px;
+  }
+  
+  .typing-demo {
+    color: rgb(117,16,247);
+    width: 37ch;
+    animation: typing 5s steps(37), blink .5s step-end infinite alternate;
+  
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .aaaa a{
+    margin: 0;
+  }
+
+  .media-logo{
+    width: 70%;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+  }
+  .media-logo a{
+    /* background: #000; */
+    display: flex;
+    width: fit-content;
+    justify-content: left;
+  }
+
+  .btn {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 27px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(117,16,247);
+    background: #ffffff;
+    border: 3px solid rgb(117,16,247);
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+}
+.btn.btn-border-3::after,
+.btn.btn-border-3::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+.btn.btn-border-3::after {
+    top: -9px;
+    left: -9px;
+    border-top: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+.btn.btn-border-3::before {
+    bottom: -9px;
+    right: -9px;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.btn.btn-border-3:hover {
+    color: #222222;
+}
+
+.btn.btn-border-3:hover::after,
+.btn.btn-border-3:hover::before {
+    width: 30px;
+    height: 30px;
+    border-color: #222222;
+}
+
+
+.hello{
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) { 
+  .landing{
+     display: flex;
+     flex-direction: column;
+     height: auto;
+  }
+  .image{
+    margin: 20px 0px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .image img{
+    border-radius: 200px;
+    height: 250px;
+    width: 250px;
+  }
+  .wrapper{
+    height: 70px;
+    width: 430px;
+    font-size: 18px;
+    overflow: hidden;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 490px) { 
+.landing{
+  width: 95%;
+  margin: auto;
+  padding: 15px;
+}
+.text p{
+  text-align: left;
+  width: 370px;
+}
+.aaaa{
+    width: 350px;
+    display: flex;
+    justify-content: left;
+    margin: 20px 0px;
+}
+.media-logo{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image{
+  width: 370px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper{
+  height: 70px;
+  width: 350px;
+  font-size: 27px;
+  overflow: hidden;
+  text-align: left;
+}
+}
+
+@media screen and (max-width: 400px) { 
+  .text{
+    width: 100% !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+  }
+  .wrapper{
+    width: fit-content !important;
+    margin: 0;  }
+
+    .media-logo{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+    .media-logo a i{
+       font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 250px) { 
+  .text{
+    width: 100% !important;
+    overflow-x: hidden;
+    margin: 0 !important;
+  }
+}
+
+
+
+

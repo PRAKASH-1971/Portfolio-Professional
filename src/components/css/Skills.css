@@ -1,0 +1,44 @@
+.skills-div{
+    height: auto;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+    background-color: #fff;
+}
+.skills-div h2{
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin: auto;
+    width: fit-content;
+    color: rgb(117,16,247);
+}
+
+.skills-div h2:hover{
+    border-bottom: 3px solid rgb(117,16,247);
+  }
+
+.skills{
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.skills img{
+    margin: 30px;
+}
+
+@media screen and (max-width: 800px) { 
+    .skills{
+        height: fit-content;
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .skills img{
+        width: 100px;
+        margin: 15px;
+    }
+}
