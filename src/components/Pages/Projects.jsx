@@ -9,21 +9,21 @@ function Projects() {
         <div className="col-lg-4 employee-1">
           <div className="employee">
             <div className="employee-image">
-              <img src="https://www.fastrack.in/wps/wcm/connect/fastrack/fa9b2a68-1f85-4f2a-8bcf-19202c2ea8ef/1080x1080_tunes.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-fa9b2a68-1f85-4f2a-8bcf-19202c2ea8ef-nZ1av9V" className="img-fluid d-block m-auto" alt="employee-image" />
+              <img src="https://i.ytimg.com/vi/Q0XfZpz-FVQ/maxresdefault.jpg" className="img-fluid d-block m-auto" alt="employee-image" />
             </div>
             <div className="employee-details">
               <div className="employee-name">
 
-                <h1 className="text-center">FASTRACK<br />
+                <h1 className="text-center">TATA 1mg<br />
                   <span className="employee-role">HTML |  CSS |  JS </span><br />
-                  <span className="employee-role" id='desc'>An web app featuring with variety  of Fastrack watches, backpacks.</span>
+                  <span className="employee-role" id='desc'>An web app featuring medical products</span>
                 </h1>
 
               </div>
               <div className="employee-social-link">
                 <ul>
-                  <li><a href="https://github.com/PRAKASH-1971/FASTRACK_SITE"><i className="fa fa-github" aria-hidden="true"></i></a></li>
-                  <li><a href="https://graceful-seahorse-a6478e.netlify.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com/PRAKASH-1971/1mg"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                  <li><a href="https://brave-hodgkin-05f1da.netlify.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
                 </ul>
                 <br />
               </div>
@@ -64,7 +64,7 @@ function Projects() {
 
               <h1 className="text-center">BLUE MERCURY<br />
                   <span className="employee-role">HTML |  CSS |  REACT </span><br />
-                  <span className="employee-role " id='desc'>An Rental web app featuring skin,spa and makeup products</span>
+                  <span className="employee-role " id='desc'>An Rental web app featuring skin,spa and makeup products.</span>
                 </h1>
               </div>
               <div className="employee-social-link">

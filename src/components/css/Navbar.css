@@ -28,17 +28,20 @@
     height: 80px;
 }
 
+
 .right-nav{
-    display: flex;
+    display: none;
     flex-direction: row;
     width: 550px;
     justify-content: space-between;
-    font-size: 22px;
-    font-weight: 600;
 }
 .right-nav a{
     text-decoration: none;
     color: black;
+  }
+.css-kik6hp{
+  font-size: 30px;
+
 }
 .right-nav a p:hover{
   border-bottom: 3px solid rgb(117,16,247);

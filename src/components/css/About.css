@@ -1,36 +1,22 @@
 .about-div{
     width: 100%;
-    background-color: rgb(249,249,249);
     font-family: 'Poppins', sans-serif;
-        height: 500px;
-    padding: 15px 0px 10px 0px;
+        height: fit-content;
+    padding: 35px 0px;
     height: fit-content;
-    padding: 10px 0px 50px 0px;
+    background-color: rgb(249,249,249);
 }
 
 .about{
     /* background-color: rgb(249,249,249); */
     font-family: 'Nunito', sans-serif;
-    width: 85%;
-    margin: 10px auto;
+    width: 80%;
+    margin: 30px auto;
    display: flex;
    justify-content: space-around;
-
+   
 }
 
-
-.about-h2{
-    text-align: center;
-    font-size: 28px;
-    font-weight: 700;color: rgb(117,16,247);
-    width: fit-content;
-    margin: 15px auto 50px auto;
-
-}
-
-.about-h2:hover{
-    border-bottom: 3px solid rgb(117,16,247);
-  }
 
 
 .about .aboutsvg{
@@ -44,11 +30,21 @@
     font-size: 20px;
     word-spacing: 0.5em;
     line-height: 1.5em;
+    text-align: left;
 }
-.about-right h2{
+.about-right h1{
     font-size: 28px;
-}
-.about-right hr{
+        text-align: left;
+        font-weight: 900;
+        color: rgb(117,16,247);
+        width: fit-content;
+        margin: 25px 0px;
+    }
+    .about-h2:hover{
+        border-bottom: 3px solid rgb(117,16,247);
+      }
+
+    .about-right hr{
     margin: 10px 0px;
 }
 
@@ -65,7 +61,28 @@
         text-align: left;
         height: fit-content;
     }
-    .about img{
+    /* .about img{
        display: none;
+    } */
+}
+
+@media screen and (max-width: 400px) { 
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .aboutsvg{
+        display: flex;
+        width: 75% !important;
+        margin: 50px auto 0px auto;
+     }
+    .about-right{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
     }
 }
