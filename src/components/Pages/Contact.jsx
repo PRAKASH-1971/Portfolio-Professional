@@ -31,7 +31,7 @@ function Contact() {
           <h1>MAIL ME</h1>
           <div className='emailme'>
           <OverlayTrigger
-            placement="bottom"
+            placement="top"
             overlay={<Tooltip id="tooltip-disabled">{text}</Tooltip>}
           >
             <span className='eemail' onClick={() => copyMail()}>prakashdsouza077@gmail.com</span>

@@ -46,11 +46,19 @@
   .employee-image img {
     height:100%;
     width: 100%;
+    margin: auto auto;
   }
- .mercury{
-  width: 150%;
-  margin-left: -90px;
- }
+  .zee5{
+    background: #000 !important;
+  }
+  .zee5 img{
+    height: 85%;
+    width: 90% !important;
+  }
+ /* .mercury img{
+   width: 100% !important;
+   height: 100%;
+ } */
 
   .employee-name {
     color:#fff;
@@ -151,5 +159,8 @@
     width: 150%;
     margin-left: -70px;
    }
+   .employee:hover > .employee-image {
+    margin-top:-80px;
+  }
   
 }

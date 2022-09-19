@@ -1,13 +1,12 @@
 import React from 'react'
 import "../css/Landing.css"
-import img from "../images/STV_1203___4x6-removebg-preview.png"
 
 
 function Landing(){
   return (
 <div className='landing' id='home' >
         <div className='text'>
-          <p>Hi, I am <span className='hello'>👋</span> </p>
+          <p>Hi  <span className='hello'>👋</span>, I am </p>
           <br />
           <div class="wrapper">
             <div class="typing-demo">

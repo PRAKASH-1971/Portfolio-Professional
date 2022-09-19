@@ -8,8 +8,8 @@ function Projects() {
       <div className="employee-container" >
         <div className="col-lg-4 employee-1">
           <div className="employee">
-            <div className="employee-image">
-              <img src="https://i.ytimg.com/vi/Q0XfZpz-FVQ/maxresdefault.jpg" className="img-fluid d-block m-auto" alt="employee-image" />
+            <div className="employee-image tata">
+              <img src="https://pbs.twimg.com/media/E_JZaX2VgAcfSaa.jpg" className="img-fluid d-block m-auto" alt="employee-image" />
             </div>
             <div className="employee-details">
               <div className="employee-name">
@@ -23,7 +23,7 @@ function Projects() {
               <div className="employee-social-link">
                 <ul>
                   <li><a href="https://github.com/PRAKASH-1971/1mg"><i className="fa fa-github" aria-hidden="true"></i></a></li>
-                  <li><a href="https://brave-hodgkin-05f1da.netlify.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li><a href="https://lambent-panda-5c50e9.netlify.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
                 </ul>
                 <br />
               </div>
@@ -32,8 +32,8 @@ function Projects() {
         </div>
         <div className="col-lg-4 employee-1">
           <div className="employee">
-            <div className="employee-image">
-              <img src="https://www.exchangewire.com/wp-content/uploads/2019/08/zee5-logo.jpeg" alt="zee5" width="80%" height="80%" />
+            <div className="employee-image zee5">
+              <img src="https://www.exchangewire.com/wp-content/uploads/2019/08/zee5-logo.jpeg" alt="zee5" />
             </div>
             <div className="employee-details">
               <div className="employee-name">
@@ -57,14 +57,14 @@ function Projects() {
         <div className="col-lg-4 employee-1">
           <div className="employee">
             <div className="employee-image mercury">
-              <img src="https://www.ezcomsoftware.com/wp-content/uploads/2017/10/big-bluemercury.png" alt="zoomcar"/>
+              <img src="https://i.imgur.com/sXCVJ24.jpg" alt="zoomcar"/>
             </div>
             <div className="employee-details">
               <div className="employee-name">
 
               <h1 className="text-center">BLUE MERCURY<br />
                   <span className="employee-role">HTML |  CSS |  REACT </span><br />
-                  <span className="employee-role " id='desc'>An Rental web app featuring skin,spa and makeup products.</span>
+                  <span className="employee-role " id='desc'>An web app featuring skin,spa and makeup products.</span>
                 </h1>
               </div>
               <div className="employee-social-link">

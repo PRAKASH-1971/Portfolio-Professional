@@ -5,12 +5,13 @@
     padding: 35px 0px;
     height: fit-content;
     background-color: rgb(249,249,249);
+    background-image: url("../images/image\ 2\ \(6\).png");
 }
 
 .about{
     /* background-color: rgb(249,249,249); */
     font-family: 'Nunito', sans-serif;
-    width: 80%;
+    width: 82%;
     margin: 30px auto;
    display: flex;
    justify-content: space-around;
@@ -61,11 +62,10 @@
         text-align: left;
         height: fit-content;
     }
-    /* .about img{
+    .about img{
        display: none;
-    } */
+    }
 }
-
 @media screen and (max-width: 400px) { 
     .about{
         display: flex;
@@ -74,8 +74,8 @@
         justify-content: space-between;
         width: 100%;
     }
-    .aboutsvg{
-        display: flex;
+    .about img{
+        display: block;
         width: 75% !important;
         margin: 50px auto 0px auto;
      }
