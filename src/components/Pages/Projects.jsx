@@ -22,8 +22,8 @@ function Projects() {
               </div>
               <div className="employee-social-link">
                 <ul>
-                  <li><a href="https://github.com/PRAKASH-1971/1mg"><i className="fa fa-github" aria-hidden="true"></i></a></li>
-                  <li><a href="https://lambent-panda-5c50e9.netlify.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li><a target={"_blank"} href="https://github.com/PRAKASH-1971/1mg"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                  <li><a target={"_blank"} href="https://lambent-panda-5c50e9.netlify.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
                 </ul>
                 <br />
               </div>
@@ -47,8 +47,8 @@ function Projects() {
               </div>
               <div className="employee-social-link">
                 <ul>
-                  <li><a href="https://github.com/PRAKASH-1971/zee5-original"><i className="fa fa-github" aria-hidden="true"></i></a></li>
-                  <li><a href="https://zee5site.netlify.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li><a target={"_blank"} href="https://github.com/PRAKASH-1971/zee5-original"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                  <li><a target={"_blank"} href="https://zee5site.netlify.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -69,8 +69,8 @@ function Projects() {
               </div>
               <div className="employee-social-link">
                 <ul>
-                  <li><a href="https://github.com/Maddy-O/purring-root-8041"><i className="fa fa-github" aria-hidden="true"></i></a></li>
-                  <li><a href="https://affable-scissors-7552.vercel.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li><a target={"_blank"} href="https://github.com/Maddy-O/purring-root-8041"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                  <li><a target={"_blank"} href="https://affable-scissors-7552.vercel.app/"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>

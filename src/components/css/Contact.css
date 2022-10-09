@@ -9,22 +9,23 @@
   margin-top: 370px;
 }
 .contact-div h2{
-    font-size: 30px;
-    color: #7510F7;
-    margin: auto;
-    width: fit-content;
+  font-size: 30px;
+  color: #7510F7;
+  margin: auto;
+  width: fit-content;
 }
 .contact-div h2:hover{
-   border-bottom: 3px solid rgb(117,16,247);
+  border-bottom: 3px solid rgb(117,16,247);
 }
 
 .contactt{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: auto;
-    padding: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px;
+  max-width: 1550px;
 }
 
 

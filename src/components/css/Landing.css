@@ -8,12 +8,16 @@
     /* background-image: url("https://thumbs.dreamstime.com/b/simple-empty-white-paper-poster-hanging-background-shadows-eps-stock-vector-160218107.jpg");
 background-position: -22% 60%;
     background-repeat: no-repeat; */
+    max-width: 2200px;
 }
 
 .landing .text{
     margin-right: 100px;
     text-align: left;
-    /* display: flex; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start; */
    
 }
 .landing .text h1{
@@ -27,15 +31,7 @@ background-position: -22% 60%;
         font-size: 28px;
         font-weight: 800;
 }
-.media-logo>a i{
-    font-size: 40px;
-    margin-right: 50px;
-    margin-top: 30px;
-    color: black;
-}
-.media-logo>a i:hover{
-  color: rgb(117,16,247);
-}
+
 
 /* Prakash Dsouza */
 
@@ -86,10 +82,10 @@ background-position: -22% 60%;
 
   .media-logo{
     width: 70%;
-    /* margin: auto; */
+    margin-top: 15px;
     display: flex;
     justify-content: space-around;
-    margin-left: 20px;
+    margin-left: -10px;
   }
   .media-logo a{
     /* background: #000; */
@@ -97,7 +93,7 @@ background-position: -22% 60%;
     width: fit-content;
     justify-content: left;
   }
-
+ 
   .btn {
     position: relative;
     display: inline-block;
@@ -192,6 +188,8 @@ background-position: -22% 60%;
   .media-logo{
   width: fit-content;
   margin: auto;
+  display: flex;
+  gap: 30px;
   }
 }
 
@@ -206,7 +204,7 @@ background-position: -22% 60%;
   width: 370px;
 }
 .aaaa{
-    width: 350px;
+    width: fit-content;
     display: flex;
     justify-content: left;
     margin: 20px 0px;
@@ -254,6 +252,12 @@ background-position: -22% 60%;
     .media-logo a i{
        font-size: 25px;
     }
+    .media-logo{
+      width: fit-content;
+      margin: auto;
+      display: flex;
+      gap: 30px;
+      }
 
 }
 

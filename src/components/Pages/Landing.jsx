@@ -1,5 +1,7 @@
 import React from 'react'
 import "../css/Landing.css"
+import { SocialIcon } from 'react-social-icons';
+import {Button} from "@chakra-ui/react"
 
 
 function Landing(){
@@ -17,21 +19,30 @@ function Landing(){
           <p>Frontend Developer <br /> & UI / UX Designer</p>
 
               <div className='aaaa'>
-               <a className="btn btn-border-3" href="https://drive.google.com/file/d/1FxPJA6T0GZ7LtejBa366bp5GMestLNn9/view?usp=sharing"> Resume</a>
+               <a className="btn btn-border-3" target={"_blank"} href="https://drive.google.com/file/d/1tt-62pQAsXBqqgfgfP4t2t995gaA-mNu/view?usp=sharing">
+                {/* <Button> */}
+                  Resume
+                  {/* </Button> */}
+                 </a>
                </div>
 
+          {/* <SocialIcon url="https://whatsapp.com/jaketrent" /> */}
           <div className="media-logo">
-          <a href="https://github.com/PRAKASH-1971">
-            <i className="fab fa-github" />
+          <a target={"_blank"} href="https://github.com/PRAKASH-1971">
+            {/* <i className="fab fa-github" /> */}
+          <SocialIcon className='SocialIcon' url="https://github.com/jaketrent" />
           </a>
-          <a href="https://www.linkedin.com/in/prakash-dsouza-50570a228/">
-            <i className="fab fa-linkedin" />
+          <a target={"_blank"} href="https://www.linkedin.com/in/prakash-dsouza-50570a228/">
+            {/* <i className="fab fa-linkedin" /> */}
+          <SocialIcon url="https://linkedin.com/jaketrent" />
           </a>
-          <a href="https://twitter.com/Prakash83893080">
-            <i className="fab fa-twitter" />
+          <a target={"_blank"} href="https://twitter.com/Prakash83893080">
+            {/* <i className="fab fa-twitter" /> */}
+          <SocialIcon url="https://twitter.com/jaketrent" />
           </a>
-          <a href="https://www.instagram.com/prakashdsouza1/">
-            <i className="fab fa-instagram" />
+          <a target={"_blank"} href="https://www.instagram.com/prakashdsouza1/">
+          <SocialIcon url="https://instagram.com/jaketrent" />
+            {/* <i className="fab fa-instagram" /> */}
           </a>
           </div>
         </div>

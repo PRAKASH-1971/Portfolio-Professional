@@ -5,14 +5,14 @@
         color: white;
     text-align: center;
     padding: 10px;
-}
-.projects-div h2{
+  }
+  .projects-div h2{
     width: fit-content;
     margin: auto;
     margin-top: 30px;
-}
+  }
 .projects-div h2:hover{
-        border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 
 .employee-container {
@@ -23,6 +23,7 @@
     margin: auto;
     position: relative;
     bottom: -60px;
+    max-width: 1550px;
   }
   .employee {
     width:370px;

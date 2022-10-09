@@ -3,8 +3,9 @@
     width: 100%;
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
-    margin: 60px 0px;
+    margin: 60px auto;
     padding-bottom: 25px;
+    max-width: 1850px;
 }
 .skills-div h2{
     background-color: #fff;

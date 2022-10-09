@@ -42,7 +42,7 @@ export default function Navbar() {
 
   return (
     <Box bg={useColorModeValue('gray.100', 'gray.900')} w={"100%"} p="10px 0px" className='navbar'>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}  w={["100%", "100%", "75%"]} margin="auto">
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} maxWidth="1570px"  w={["100%", "100%", "75%"]} margin="auto">
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}

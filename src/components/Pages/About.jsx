@@ -16,7 +16,11 @@ function About() {
             software in a custom-configured server.
             <br />
             <hr />
-            <i class="fas fa-location-arrow"></i>Manipal ,Karnataka 
+            <lord-icon
+    src="https://cdn.lordicon.com/fihkmkwt.json"
+    trigger="hover"
+    style={{"width":"50px","height":"50px","marginTop":"-10px"}}>
+</lord-icon> Manipal ,Karnataka 
           </p>
 
       </div>
