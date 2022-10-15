@@ -10,6 +10,12 @@ background-position: -22% 60%;
     background-repeat: no-repeat; */
     max-width: 2200px;
 }
+.land{
+    background-image: url("https://i.ibb.co/vwfJ8m5/Frame-1-21.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 
 .landing .text{
     margin-right: 100px;
@@ -28,8 +34,9 @@ background-position: -22% 60%;
 .landing .text p{
         margin: 0;
         padding: 0;
-        font-size: 28px;
-        font-weight: 800;
+        font-size: 26px;
+        font-weight: 700;
+        color: #39424E;
 }
 
 
@@ -258,6 +265,19 @@ background-position: -22% 60%;
       display: flex;
       gap: 30px;
       }
+      .navvv{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: white;
+        height: 70px;
+      }
+      .landing{
+        margin-top: 70px;
+            }
+      
 
 }
 
@@ -267,6 +287,16 @@ background-position: -22% 60%;
     overflow-x: hidden;
     margin: 0 !important;
   }
+  .navvv{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    margin-bottom:20px ;
+    background-color: white;
+  }
+  
 }
 
 

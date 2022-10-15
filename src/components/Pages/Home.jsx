@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className='mains'>
       <div id='navbar-main'>
-      <Navbar />
+      {/* <Navbar /> */}
       </div>
       <div className='remaining'>
       <Landing/>

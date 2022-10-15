@@ -41,8 +41,12 @@ export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box bg={useColorModeValue('gray.100', 'gray.900')} w={"100%"} p="10px 0px" className='navbar'>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} maxWidth="1570px"  w={["100%", "100%", "75%"]} margin="auto">
+    <Box
+    //  bg={useColorModeValue('gray.100', 'gray.900')}
+      w={"100%"} p="10px 0px" className='navbar'>
+      <Box
+      //  bg={useColorModeValue('gray.100', 'gray.900')}
+        px={4} maxWidth="1570px"  w={["100%", "100%", "75%"]} margin="auto">
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -54,10 +58,12 @@ export default function Navbar() {
           <HStack spacing={8} alignItems={'center'}>
             <HStack
               as={'nav'} id="navlink"
-              spacing={4} 
+              spacing={8} color="#39424E" 
               display={{ base: 'none', md: 'flex' }} fontSize={"18px"} fontWeight={"600"}  >
               {Links.map((link) => (
+                <b>
                 <NavLink  key={link} linked={link.toLowerCase()}>{link}</NavLink>
+                </b>
               ))}
             </HStack>
           </HStack>
@@ -70,10 +76,9 @@ export default function Navbar() {
                 cursor={'pointer'}
                 minW={0}>
                 <Image
-                  size={'lg'} w="90px" h="75px"
-                  border={"1px solid #EDF2F7"}
+                  size={'lg'} w="60px" h="55px"
                   src={
-                    'https://i.ibb.co/6gr1x9x/logoprakash-removebg-preview-1.png'
+                    'https://i.ibb.co/qC6ZMVG/logoprakash.png'
                   }
                 />
               </MenuButton>
