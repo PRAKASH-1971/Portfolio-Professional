@@ -14,7 +14,7 @@ function Projects() {
             <div className="employee-details">
               <div className="employee-name">
 
-                <h1 className="text-center">TATA 1mg<br />
+                <h1 style={{"fontSize":'23px',"margin":"5px 0px"}} className="text-center">TATA      1mg<br />
                   <span className="employee-role">HTML |  CSS |  JS </span><br />
                   <span className="employee-role" id='desc'>An web app featuring medical products</span>
                 </h1>
@@ -38,7 +38,7 @@ function Projects() {
             <div className="employee-details">
               <div className="employee-name">
 
-             <h1 className="text-center">ZEE5<br />
+             <h1 style={{"fontSize":'23px',"margin":"5px 0px"}}className="text-center">ZEE5<br />
                   <span className="employee-role">HTML |  CSS |  REACT </span><br />
                   <span className="employee-role" id='desc'>A streaming service with variety of award-winning TV shows, movies.</span>
                 </h1>
@@ -57,12 +57,15 @@ function Projects() {
         <div className="col-lg-4 employee-1">
           <div className="employee">
             <div className="employee-image mercury">
-              <img src="https://i.imgur.com/sXCVJ24.jpg" alt="zoomcar"/>
+              <img 
+              // src="https://i.imgur.com/sXCVJ24.jpg"
+              src="https://previews.123rf.com/images/djvstock/djvstock1601/djvstock160103576/51405067-womens-make-up-and-cosmetics-graphic-design-.jpg"
+               alt="zoomcar"/>
             </div>
             <div className="employee-details">
               <div className="employee-name">
 
-              <h1 className="text-center">BLUE MERCURY<br />
+              <h1 style={{"fontSize":'23px',"margin":"5px 0px"}} className="text-center">BLUE MERCURY<br />
                   <span className="employee-role">HTML |  CSS |  REACT </span><br />
                   <span className="employee-role " id='desc'>An web app featuring skin,spa and makeup products.</span>
                 </h1>

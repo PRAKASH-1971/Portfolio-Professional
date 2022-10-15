@@ -87,7 +87,7 @@ export default function Navbar() {
         </Flex>
 
         {isOpen ? (
-          <Box pb={4} display={{ md: 'none' }}>
+          <Box p={2} display={{ md: 'none' }} bg="white">
             <Stack as={'nav'} spacing={4}>
               {Links.map((link) => (
                 <NavLink key={link} linked={link.toLowerCase()}>{link}</NavLink>

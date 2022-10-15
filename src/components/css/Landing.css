@@ -117,6 +117,7 @@ background-size: cover;
     transition: ease-out 0.5s;
     -webkit-transition: ease-out 0.5s;
     -moz-transition: ease-out 0.5s;
+    
 }
 .btn.btn-border-3::after,
 .btn.btn-border-3::before {
@@ -141,12 +142,12 @@ background-size: cover;
     border-right: 3px solid transparent;
 }
 
-.btn.btn-border-3:hover {
+.btn.btn-border-3 {
     color: #222222;
 }
 
-.btn.btn-border-3:hover::after,
-.btn.btn-border-3:hover::before {
+.btn.btn-border-3::after,
+.btn.btn-border-3::before {
     width: 30px;
     height: 30px;
     border-color: #222222;
@@ -235,6 +236,9 @@ background-size: cover;
   overflow: hidden;
   text-align: left;
 }
+.aaaa{
+  margin: 20px auto;
+}
 }
 
 @media screen and (max-width: 400px) { 
@@ -277,7 +281,9 @@ background-size: cover;
       .landing{
         margin-top: 70px;
             }
-      
+            .aaaa{
+              margin: 20px auto;
+            }
 
 }
 
@@ -295,6 +301,9 @@ background-size: cover;
     z-index: 1000;
     margin-bottom:20px ;
     background-color: white;
+  }
+  .aaaa{
+    margin: 20px auto;
   }
   
 }

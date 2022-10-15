@@ -26,7 +26,7 @@ function Landing(){
               <div className='aaaa'>
                <a className="btn btn-border-3" target={"_blank"} href="https://drive.google.com/file/d/1tt-62pQAsXBqqgfgfP4t2t995gaA-mNu/view?usp=sharing">
                 {/* <Button> */}
-                  Resume
+                <b>  Resume</b>
                   {/* </Button> */}
                  </a>
                </div>
