@@ -25,16 +25,16 @@ function Skills() {
              <img width={"150px"} src="https://logosmarcas.net/wp-content/uploads/2020/12/GitHub-Logo.png" alt="github" />
              </div>
              <div className="card">
-             <img width={"150px"} src="https://lh3.googleusercontent.com/WgTVt2TUmCDrJuhBVQi84ynGogOcDzzAwKrR4IUxObCoNd-VAVeRph3gQtlUEgYq2yj9OgwtsGw0ylIwigC66jHmy1I0oxJ3GbNaS1criuH6-ohZ39dnwLOdhAzYuqaR1OX5ln7n" alt="material_ui" />
+             <img width={"100px"} src="https://v4.mui.com/static/logo.png" alt="material_ui" />
              </div>
              <div className="card">
-             <img width={"150px"} src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/logo/logo-colored@2x.png?raw=true" alt="chakra" />
+             <img width={"170px"}  src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/logo/logo-colored@2x.png?raw=true" alt="chakra" />
              </div>
              <div className="card">
-             <img width={"150px"} src="https://wptavern.com/wp-content/uploads/2018/11/Screen-Shot-2018-11-19-at-8.43.27-PM.png" alt="Figma" />
+             <img width={"150px"} src="https://i0.wp.com/kkgtadesign.com/wp-content/uploads/2020/12/figma-logo.png?ssl=1" alt="Figma" />
              </div>
              <div className="card">
-             <img width={"150px"} src="https://i.ibb.co/CB057wZ/node-removebg-preview.png" alt="Node" />
+             <img width={"150px"} src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png" alt="Node" />
              </div>
              <div className="card">
              <img width={"150px"} src="https://icons.getbootstrap.com/assets/img/icons-hero.png" alt="Bootstrap" />
