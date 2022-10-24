@@ -37,7 +37,7 @@ function Landing(){
             {/* <i className="fab fa-github" /> */}
           <SocialIcon className='SocialIcon' url="https://github.com/jaketrent" />
           </a>
-          <a target={"_blank"} href="https://www.linkedin.com/in/prakash-dsouza-50570a228/">
+          <a target={"_blank"} href="https://www.linkedin.com/in/prakash-dsouza-50570a228">
             {/* <i className="fab fa-linkedin" /> */}
           <SocialIcon url="https://linkedin.com/jaketrent" />
           </a>
