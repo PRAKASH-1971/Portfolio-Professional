@@ -22,8 +22,8 @@
 
 
 .about .aboutsvg{
-  height: 60%;
-  width: 40%;
+  height: 80%;
+  width: 50%;
 }
 
 
@@ -90,7 +90,7 @@
 
 @media screen and (min-width: 1400px){ 
     .about .aboutsvg{
-        height: 30%;
-        width: 30%;
+        height: 40%;
+        width: 40%;
       }
 }
