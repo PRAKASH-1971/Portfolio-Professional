@@ -5,6 +5,7 @@ function Projects() {
   return (
     <div className='projects-div' id='projects'>
       <h2 style={{ textAlign: "center", fontSize: '30px' }}>Projects</h2>
+      <p style={{ textAlign: "center",margin:'0px',padding:'0px 0px',fontWeight:100 }}>Hover / click </p>
       <div className="employee-container" >
         <div className="col-lg-4 employee-1">
           <div className="employee">

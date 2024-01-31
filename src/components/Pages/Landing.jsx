@@ -24,7 +24,7 @@ function Landing(){
           <p>Frontend Developer <br /> & UI / UX Designer</p>
 
               <div className='aaaa'>
-               <a className="btn btn-border-3" target={"_blank"} href="https://drive.google.com/file/d/1tt-62pQAsXBqqgfgfP4t2t995gaA-mNu/view?usp=sharing">
+               <a className="btn btn-border-3" target={"_blank"} href="https://drive.google.com/file/d/1EOFpLPPz-NpWoWrO5FpcC-1aoE__YuOM/view?usp=sharing">
                 {/* <Button> */}
                 <b>  Resume</b>
                   {/* </Button> */}
